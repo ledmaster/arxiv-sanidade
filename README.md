@@ -31,11 +31,12 @@ Ele usa um modelo linear simples treinado nos artigos que o usuário salva expli
 ## Utilização
 
 1. Abra o aplicativo web no seu navegador (o endereço padrão é `http://127.0.0.1:5000/`).
-2. Navegue pelos artigos listados.
-3. Use o campo de entrada na parte superior para salvar um artigo por seu ID do arXiv.
-4. Clique em "Salvar Paper" para adicionar artigos ao seu conjunto salvo e retreinar o modelo.
-5. Clique em "View PDF" para abrir o artigo completo em uma nova guia.
-6. Clique em "Copy Link" para copiar o ID do arXiv para a área de transferência.
+2. Espere carregar os artigos (parece que não está funcionando/travou, mas se você olhar no Terminal ele vai mostrando as mensagens de log enquanto carrega tudo).
+3. Navegue pelos artigos listados.
+4. Use o campo de entrada na parte superior para salvar um artigo por seu ID do arXiv.
+5. Clique em "Salvar Paper" para adicionar artigos ao seu conjunto salvo e retreinar o modelo.
+6. Clique em "View PDF" para abrir o artigo completo em uma nova guia.
+7. Clique em "Copy Link" para copiar o ID do arXiv para a área de transferência.
 
 ## Primeiro Uso
 
