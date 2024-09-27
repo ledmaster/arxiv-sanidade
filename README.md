@@ -24,9 +24,8 @@ Ele usa um modelo linear simples treinado nos artigos que o usuário salva expli
 
 1. Clone o repositório.
 2. Instale os pacotes Python necessários: `pip install -r requirements.txt`
-3. Configure o banco de dados: `python app.py` (isso criará o arquivo `papers.db`).
-4. Defina a variável de ambiente `GEMINI_API_KEY` com sua chave de API do Gemini.
-5. Execute o aplicativo: `python app.py [--days <número_de_dias>]`
+3. Defina a variável de ambiente `GEMINI_API_KEY` com sua chave de API do Gemini.
+4. Execute o aplicativo: `python app.py [--days <número_de_dias>]` (isso criará o arquivo `papers.db`).
 
 ## Utilização
 
