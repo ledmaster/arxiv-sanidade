@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArXiv Sanidade</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>ArXiv Sanidade 🇧🇷</h1>
+
+    <div id="save-by-id">
+        <h2>Salvar paper por ID</h2>
+        <h3>Digite o ID (ex: 1706.03762) para salvar um paper na DB de positivos</h3>
+        <form id="save-form">
+            <input type="text" id="save-paper-id" name="paper_id" placeholder="Enter Paper ID" required>
+            <button type="submit">Save Paper</button>
+        </form>
+    </div>
+
+    <div id="papers-container">
+        <div id="papers"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+Flask
+numpy
+arxiv
+scikit-learn
+pytz
+tqdm
+google-generativeai
