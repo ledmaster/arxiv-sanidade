@@ -4,6 +4,8 @@ Inspirado pelo [arxiv-sanity-lite](https://arxiv-sanity-lite.com/) do Andrej Kar
 
 Ele usa um modelo linear simples treinado nos artigos que o usuário salva explicitamente para prever a relevância de novos artigos.
 
+Gostou? Deixe uma ⭐!
+
 ## Recursos
 
 * Exibe artigos recentes do arXiv de categorias específicas (Ciência da Computação, Estatística, Inteligência Artificial).
